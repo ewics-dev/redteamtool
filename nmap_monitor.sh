@@ -6,9 +6,6 @@
 #
 # This script continuously scans the target with nmap and reports when a service
 # (an open port) goes up or down.
-#
-# Note: Make sure you have permission to scan the target network.
-#
 
 TARGET="$1"
 PORT_RANGE="$2"
